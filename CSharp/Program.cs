@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 //Array
-string[] FoodsArray = { "Pasta alla Carbonara", "Pizza Diavola", "Nighiri al salmone", "Piadina Kebab", "Torta al cioccolato", "Risotto Mantovano", "Adobo", "Tofu fritto", "Ravioli gamberi" };
+string[] FoodsArray = { "Pasta alla Carbonara", "Pizza Diavola", "Nighiri al salmone", "Piadina Kebab", "Torta al cioccolato", "Risotto Mantovano", "Adobo", "Tofu fritto", "Ravioli gamberi"};
 
 //Print Lenght
 Console.WriteLine("Your list is made with " + FoodsArray.Length + " elements");
@@ -18,4 +18,18 @@ Console.WriteLine("My favourite is " + myFavourite);
 
 //Print my favourite dishes
 var myLatestFavourite = FoodsArray.Last();
-Console.WriteLine("My latest favourite is " + myLatestFavourite);
+Console.WriteLine("Last dish " + myLatestFavourite);
+
+//BONUS: Print the middle string of the array
+var mid = FoodsArray[FoodsArray.Length / 2];
+Console.WriteLine("Odd Array, the middle string is: " + mid);
+
+//BONUS: Print the middle string of the array
+string[] FoodsArray2 = { "Pasta alla Carbonara", "Pizza Diavola", "Nighiri al salmone", "Piadina Kebab", "Torta al cioccolato", "Risotto Mantovano", "Adobo", "Tofu fritto", "Ravioli gamberi", "poke" };
+
+var middle = FoodsArray2[FoodsArray2.Length / 2 - 1];
+var middle2 = FoodsArray2[FoodsArray2.Length / 2];
+Console.WriteLine("Even array, the middle strings are: " + middle + middle2);
+
+
+
