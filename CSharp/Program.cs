@@ -4,7 +4,7 @@
 string[] FoodsArray = { "Pasta alla Carbonara", "Pizza Diavola", "Nighiri al salmone", "Piadina Kebab", "Torta al cioccolato", "Risotto Mantovano", "Adobo", "Tofu fritto", "Ravioli gamberi" };
 
 //Print Lenght
-Console.WriteLine("Your list is made with " + FoodsArray.Length + " element");
+Console.WriteLine("Your list is made with " + FoodsArray.Length + " elements");
 
 //Print array
 for (int i = 0; i < FoodsArray.Length; i++)
@@ -15,3 +15,7 @@ for (int i = 0; i < FoodsArray.Length; i++)
 //Print my favourite dishes
 var myFavourite = FoodsArray.First();
 Console.WriteLine("My favourite is " + myFavourite);
+
+//Print my favourite dishes
+var myLatestFavourite = FoodsArray.Last();
+Console.WriteLine("My latest favourite is " + myLatestFavourite);
