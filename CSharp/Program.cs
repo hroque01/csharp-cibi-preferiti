@@ -6,3 +6,8 @@ string[] FoodsArray = { "Pasta alla Carbonara", "Pizza Diavola", "Nighiri al sal
 //Print Lenght
 Console.WriteLine(FoodsArray.Length);
 
+//Print array
+for (int i = 0; i < FoodsArray.Length; i++)
+{
+    Console.WriteLine(i + 1 + "" + FoodsArray[i]);
+}
