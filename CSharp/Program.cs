@@ -20,11 +20,11 @@ Console.WriteLine("My favourite is " + myFavourite);
 var myLatestFavourite = FoodsArray.Last();
 Console.WriteLine("Last dish " + myLatestFavourite);
 
-//BONUS: Print the middle string of the array
+//BONUS: Print the middle string of the array ODD
 var mid = FoodsArray[FoodsArray.Length / 2];
 Console.WriteLine("Odd Array, the middle string is: " + mid);
 
-//BONUS: Print the middle string of the array
+//BONUS: Print the middle string of the array EVEN
 string[] FoodsArray2 = { "Pasta alla Carbonara", "Pizza Diavola", "Nighiri al salmone", "Piadina Kebab", "Torta al cioccolato", "Risotto Mantovano", "Adobo", "Tofu fritto", "Ravioli gamberi", "poke" };
 
 var middle = FoodsArray2[FoodsArray2.Length / 2 - 1];
